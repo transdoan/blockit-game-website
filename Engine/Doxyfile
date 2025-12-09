@@ -1,0 +1,23 @@
+PROJECT_NAME           = "TAA Engine"
+OUTPUT_DIRECTORY       = Docs
+CREATE_SUBDIRS         = NO
+
+INPUT                  = source
+RECURSIVE              = YES
+FILE_PATTERNS          = *.d
+EXTENSION_MAPPING      = d=C++
+
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+EXTRACT_STATIC         = YES
+HIDE_UNDOC_MEMBERS     = YES
+HIDE_UNDOC_CLASSES     = YES
+JAVADOC_AUTOBRIEF      = YES
+
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+GENERATE_LATEX         = NO
+
+QUIET                  = NO
+WARNINGS               = YES
+

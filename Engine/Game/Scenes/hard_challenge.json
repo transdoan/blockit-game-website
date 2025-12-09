@@ -1,0 +1,31 @@
+{
+  "id": "hard_challenge",
+  "title": "Sky Islands",
+  "width": 20,
+  "height": 15,
+  "tileSize": 32,
+  "spawn": [1, 11],
+  "goal": [18, 1],
+  "palette": ["dirt"],
+  "inventory": {
+    "dirt": 1
+  },
+  "grid": [
+    "DDDDDDDDDDDDDDDDDDGD",
+    "D..................D",
+    "D.DD....R.....DD...D",
+    "D....L.....L.....L.D",
+    "D.DDDD....DDDD...D.D",
+    "D..................D",
+    "D.DD...L..L...DD...D",
+    "D......DDDD........D",
+    "D.DD........L.DD...D",
+    "D......DD..........D",
+    "D.DD........DD.....D",
+    "D......DD..........D",
+    "D.SS........DD.....D",
+    "DMMMMLLLLLLLLLLSSSSD",
+    "DDDDDDDDDDDDDDDDDDDD"
+  ]
+}
+

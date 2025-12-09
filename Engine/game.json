@@ -1,0 +1,20 @@
+{
+  "resources": {
+    "tiles": {
+      "definitions": "Game/Assets/tiles.json"
+    },
+    "animations": {
+      "player": "Assets/player_animations.json"
+    },
+    "levels": [
+      { "id": "climb_intro", "title": "Molten Climb", "file": "Game/Scenes/climb_intro.json" },
+      { "id": "rubber_bridges", "title": "Rubber Bridges", "file": "Game/Scenes/rubber_bridges.json" },
+      { "id": "hard_challenge", "title": "Sky Islands", "file": "Game/Scenes/hard_challenge.json" },
+      { "id": "totem_ascent", "title": "Totem Ascent", "file": "Game/Scenes/totem_ascent.json" }
+    ],
+    "editor": {
+      "defaultFile": "Game/Scenes/climb_intro.json",
+      "saveFile": "Game/Scenes/custom_level.json"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "taa-engine",
+  "description": "TAA final project engine",
+  "authors": ["Team TAA"],
+  "license": "proprietary",
+  "targetType": "executable",
+  "sourcePaths": ["source"],
+  "importPaths": ["include"],
+  "dependencies": {
+    "bindbc-sdl": "~>2.2.0"
+  },
+  "versions": ["SDL_UseBindBCDynamic"]
+}

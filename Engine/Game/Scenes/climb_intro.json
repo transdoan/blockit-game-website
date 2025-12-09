@@ -1,0 +1,33 @@
+{
+  "id": "climb_intro",
+  "title": "Molten Climb",
+  "width": 20,
+  "height": 15,
+  "tileSize": 32,
+  "spawn": [2, 13],
+  "goal": [17, 1],
+  "palette": ["dirt", "rubber", "mud", "secret"],
+  "inventory": {
+    "dirt": 10,
+    "rubber": 2,
+    "mud": 1,
+    "secret": 1
+  },
+  "grid": [
+    "....................",
+    ".................G..",
+    "................DDD.",
+    "...........RRR......",
+    "...D........L.......",
+    "...D........L.......",
+    "...DDDDD...LLLLL....",
+    "......L........L....",
+    "..S..L........L.S...",
+    ".....L........L.....",
+    "..DDDLDDDDDDDLDD....",
+    "....................",
+    "...DD...............",
+    "..DDD...............",
+    "DDDDDDDDDDDDDDDDDDDD"
+  ]
+}

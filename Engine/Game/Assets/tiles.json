@@ -1,0 +1,15 @@
+{
+  "tileSize": 32,
+  "tiles": [
+    { "id": "empty", "name": "Empty", "code": ".", "color": [12, 14, 18, 255], "solid": false, "behavior": "none", "placeable": false },
+    { "id": "dirt", "name": "Dirt", "code": "D", "color": [139, 92, 62, 255], "solid": true, "behavior": "none", "placeable": true, "inventory": "dirt", "texture": "Assets/sprites/dirt.bmp" },
+    { "id": "stone", "name": "Stone", "code": "#", "color": [90, 90, 108, 255], "solid": true, "behavior": "none", "placeable": false },
+    { "id": "lava", "name": "Lava", "code": "L", "color": [210, 70, 34, 255], "solid": false, "behavior": "lava", "texture": "Assets/sprites/lava.bmp" },
+    { "id": "rubber", "name": "Rubber", "code": "R", "color": [150, 70, 190, 255], "solid": true, "behavior": "rubber", "placeable": true, "inventory": "rubber", "jumpBoost": 1.4, "texture": "Assets/sprites/rubber.bmp" },
+    { "id": "mud", "name": "Mud", "code": "M", "color": [96, 64, 40, 255], "solid": true, "behavior": "mud", "placeable": true, "inventory": "mud", "speedMultiplier": 0.55, "texture": "Assets/sprites/mud.bmp" },
+    { "id": "goal", "name": "Totem", "code": "G", "color": [250, 210, 80, 255], "solid": true, "behavior": "goal", "texture": "Assets/sprites/goal.bmp" },
+    { "id": "arrow_right", "name": "Arrow Trap Right", "code": ">", "color": [185, 185, 195, 255], "solid": true, "behavior": "arrow_right", "interval": 8.0 },
+    { "id": "arrow_left", "name": "Arrow Trap Left", "code": "<", "color": [185, 185, 195, 255], "solid": true, "behavior": "arrow_left", "interval": 8.0 },
+    { "id": "secret", "name": "Speed Block", "code": "S", "color": [40, 160, 200, 120], "solid": true, "behavior": "secret", "placeable": true, "inventory": "secret", "hidden": false, "speedMultiplier": 1.5, "texture": "Assets/sprites/ice.bmp" }
+  ]
+}

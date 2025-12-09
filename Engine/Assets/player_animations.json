@@ -1,0 +1,18 @@
+{
+  "format": {
+    "width": 256,
+    "height": 384,
+    "tileWidth": 128,
+    "tileHeight": 128
+  },
+  "frames": {
+    "idle_left": [0],
+    "idle_right": [3],
+    "walk_left": [0, 1, 2],
+    "walk_right": [3, 4],
+    "jump_left": [0],
+    "jump_right": [3],
+    "fall_left": [0],
+    "fall_right": [3]
+  }
+}
